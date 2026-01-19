@@ -1,0 +1,72 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+.ipynb_checkpoints/
+
+# =========================
+# Virtual Environment (WAJIB DI-IGNORE)
+# =========================
+venv/
+env/
+.env/
+.venv/
+
+# =========================
+# TensorFlow / PyTorch / ML Models
+# =========================
+*.h5
+*.hdf5
+*.pb
+*.ckpt
+*.pt
+*.pth
+*.onnx
+
+# =========================
+# Dataset & Output (biasanya besar)
+# =========================
+data/
+dataset/
+datasets/
+outputs/
+results/
+logs/
+checkpoints/
+
+# =========================
+# OS / Editor
+# =========================
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# =========================
+# Caches & Build
+# =========================
+*.log
+*.tmp
+*.cache
+build/
+dist/
+*.egg-info/
+
+# =========================
+# Jupyter
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# CUDA / Compiled binaries
+# =========================
+*.dll
+*.so
+*.dylib
+
+# Abaikan file zip dataset
+*.zip
